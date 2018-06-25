@@ -1,0 +1,26 @@
+{
+  "name": "@wesleytodd/state-container",
+  "version": "0.0.1",
+  "description": "A state container for all apps (redux like)",
+  "author": "Wes Todd <wes@wesleytodd.com>",
+  "keywords": [
+    "state container",
+    "state",
+    "redux"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wesleytodd/state-container.git"
+  },
+  "scripts": {
+    "test": "standard && mocha",
+    "prepublushOnly": "npm t",
+    "postpublish": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  }
+}
